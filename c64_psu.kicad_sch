@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "C64 and 1541 PSU")
-		(date "2025-01-11")
-		(rev "1.0")
+		(date "2025-01-23")
+		(rev "2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
@@ -2667,16 +2667,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 69.85) (xy 69.85 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195dc45e-c56f-4758-a05a-2da3ac54b2bd")
-	)
-	(wire
-		(pts
 			(xy 180.34 45.72) (xy 189.23 45.72)
 		)
 		(stroke
@@ -3184,6 +3174,16 @@
 			(type default)
 		)
 		(uuid "7ef34c3a-10b2-4e82-b8b6-194f5ab0bf67")
+	)
+	(wire
+		(pts
+			(xy 43.18 69.85) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82290f5f-fb1d-4358-a49b-3c7bac881d1c")
 	)
 	(wire
 		(pts
@@ -4861,7 +4861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+		(property "Footprint" "c64_psu:TO-263-5_TabPin3"
 			(at 168.91 83.82 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+		(property "Footprint" "c64_psu:TO-263-5_TabPin3"
 			(at 168.91 54.61 0)
 			(effects
 				(font
@@ -6481,19 +6481,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e9ef4d7-fa34-4088-9010-bc60beb74d8a")
+			(uuid "7e9ef4d7-fa34-4088-9010-bc60beb74d8b")
 		)
 		(pin "2"
-			(uuid "34d47f3b-6fc4-4a6d-99cd-d576ae18b91d")
+			(uuid "34d47f3b-6fc4-4a6d-99cd-d576ae18b91e")
 		)
 		(pin "3"
-			(uuid "c421ce1c-924c-4009-bfcb-212a1a986506")
+			(uuid "c421ce1c-924c-4009-bfcb-212a1a986507")
 		)
 		(pin "5"
-			(uuid "25dd83c2-a09f-444e-b24b-a59939660294")
+			(uuid "25dd83c2-a09f-444e-b24b-a59939660295")
 		)
 		(pin "4"
-			(uuid "dd79b7f1-49cc-407f-8336-843032157674")
+			(uuid "dd79b7f1-49cc-407f-8336-843032157675")
 		)
 		(instances
 			(project "c64_psu"
@@ -6854,10 +6854,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c9958ec-e705-46a3-9615-e835f8920a9a")
+			(uuid "9c9958ec-e705-46a3-9615-e835f8920a9b")
 		)
 		(pin "1"
-			(uuid "ebff7bad-a0c8-4a55-9ac2-6632a203faca")
+			(uuid "ebff7bad-a0c8-4a55-9ac2-6632a203facb")
 		)
 		(instances
 			(project "c64_psu"
@@ -7058,10 +7058,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "04e6a467-87b4-4981-9c37-5f7525e0e85b")
+			(uuid "04e6a467-87b4-4981-9c37-5f7525e0e85c")
 		)
 		(pin "2"
-			(uuid "2fca9599-6b1a-4efb-b22b-edab3b2238d8")
+			(uuid "2fca9599-6b1a-4efb-b22b-edab3b2238d9")
 		)
 		(instances
 			(project "c64_psu"
